@@ -33,12 +33,8 @@
   height: 100vh;
   /* width: 100vw; */
 }
-.spinner {
-  position: relative;
-}
 
 .spinner-text {
-  position: relative;
   font-family: monospace;
   font-size: 16px;
   text-transform: uppercase;
@@ -47,7 +43,7 @@
   transition-timing-function: linear;
 }
 .rect {
-  position: absolute;
+  position: relative;
   background-color: black;
   width: 10px;
   height: 4px;
